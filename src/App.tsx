@@ -5,7 +5,7 @@ import { prodData } from "./data/products";
 
 function App() {
   return (
-    <div className="container mx-auto max-w-[1150px] flex mg:h-screen flex-col  justify-center mt-2">
+    <div className="container mx-auto max-w-[1150px] flex lg:h-screen flex-col  justify-center mt-2">
       <h1 className="flex justify-center text-white_my text-4xl font-[Exo02] text-center mb-4">
         Ты сегодня покормил кота?
       </h1>
