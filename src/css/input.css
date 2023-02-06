@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg_img {
+    background-image: url("/src/img/Pattern.png");
+  }
+
+  @font-face {
+    font-family: trebuch;
+    src: url("/src/font/trebuchet.otf");
+    src: url("/src/font/trebuchet.woff");
+  }
+
+  @font-face {
+    font-family: Exo02;
+    src: url("/src/font/Exo2.0_otf.otf");
+    src: url("/src/font/Exo2.0_woff.woff");
+  }
+
+  @font-face {
+    font-family: trebuchetB;
+    src: url("/src/font/trebuchet_b.otf");
+    src: url("/src/font/trebuchet_b.woff");
+  }
+}

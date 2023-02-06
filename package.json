@@ -1,0 +1,89 @@
+{
+  "name": "product",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/runtime": "^7.20.13",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "babel-preset-react": "^6.24.1",
+    "dompurify": "^2.4.3",
+    "isomorphic-dompurify": "^0.26.0",
+    "react": "^18.2.0",
+    "react-app-polyfill": "^3.0.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "tailwind-w": "cross-env NODE_ENV=development tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "tailwind": "cross-env NODE_ENV=development tailwindcss -i ./src/css/input.css -o ./src/css/output.css",
+    "server-webpack": "cross-env NODE_ENV=development webpack serve",
+    "build-webpack": "cross-env NODE_ENV=production  webpack --mode production",
+    "dev-webpack": "cross-env NODE_ENV=development  webpack --mode development",
+    "dev-webpack-w": "cross-env NODE_ENV=development  webpack --mode development --watch"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.25%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+    "@svgr/webpack": "^6.5.1",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "install": "^0.13.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "npm": "^9.4.0",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.0.2",
+    "postcss-preset-env": "^8.0.1",
+    "react-refresh": "^0.14.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.2.4",
+    "tailwindcss-webpack-plugin": "^0.0.10",
+    "terser-webpack-plugin": "^5.3.6",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5",
+    "url-loader": "^4.1.1",
+    "web-vitals": "^3.1.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
