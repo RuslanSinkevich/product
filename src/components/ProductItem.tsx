@@ -31,7 +31,7 @@ export function ProductItem({ product }: ProductProps) {
   };
 
   return (
-    <div onMouseLeave={onMouseLeave} className=" relative z-0">
+    <div onMouseLeave={onMouseLeave} className=" relative mb-3  ">
       <label htmlFor={`00${id}`} className="group">
         <input
           onClick={ChekInput}
