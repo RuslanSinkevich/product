@@ -1,7 +1,8 @@
-## В рамках [тестового задания]( https://github.com/RuslanSinkevich/product/blob/master/test-task.pdf), 
+## В рамках тестового задания 
+[ссылка]( https://github.com/RuslanSinkevich/product/blob/master/test-task.pdf), 
 необходимо было создать страницу.
 
-Пример реализации [ссылка]( http://u1928479.isp.regruhosting.ru/)
+Пример реализации - [ссылка]( http://u1928479.isp.regruhosting.ru/)
 
 ## Сложности
 Сложности были в основном, с адаптацией браузера IE-11, 
