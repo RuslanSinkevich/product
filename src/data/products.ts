@@ -21,7 +21,7 @@ export const prodData: IProducts[] = [
       weight: "2",
     },
     prodDescription: "Головы щучьи с чесноком да свежайшая сёмгушка.",
-    prodEnded: false
+    prodEnded: true
   },
   {
     id: 3,
